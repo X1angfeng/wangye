@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+
+<title>网页制作学习</title>
+
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% 宋体, 新宋体;
+	background: #F7F7F7;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+	background-image: url(images/bg.jpg);
+}
+.twoColHybLt #container { 
+	width: 100%;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left; 
+	background-image: url(images/xx.jpg);
+} 
+
+
+.twoColHybLt #sidebar1 {
+	float: left; 
+	width: 12em; 
+	height: 548px;
+	background: #EBEBEB; 
+	padding: 15px 0; 
+}
+.twoColHybLt #sidebar1 h3, .twoColHybLt #sidebar1 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.twoColHybLt #mainContent {
+	margin: 0 20px 0 13em; 
+	color: #000;
+	font-family: "微软雅黑 Light";
+} 
+
+/* 要重用的各种类 */
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.ww{
+	color:#000;
+	 font-size: 18px;
+	}
+a{text-decoration: none;
+	color:#000000;
+}
+.twoColHybLt #container #mainContent h1 {
+	color: #000;
+}
+.twoColHybLt #container #mainContent p {
+	font-weight: bold;
+}
+.twoColHybLt #container #mainContent {
+	font-weight: bold;
+}
+</style>
+</head>
+<body class="twoColHybLt">
+<a name="1" id="1"></a>
+<div id="container">
+  <div id="sidebar1">
+    <p align="center"><img src="images/avanter.jpg" alt="1" width="150" height="150" /></p>
+    <p align="center">Learning everyday!</p>
+    <p align="center"><a href="index.html#1"><img src="images/index_1.png" alt="" width="20" height="20" />&nbsp;首页</a></p>
+    <p align="center"><a href="study.html"><img src="images/studying.png" alt="" width="20" height="20" />&nbsp;学习</a></p>
+    <p align="center"><a href="entertainment.html"><img src="images/emojy.png" alt="" width="20" height="20" />&nbsp;<span class="silber">娱乐</span></a><span class="silber"></span></p>
+    <p align="center"><a href="about.html"><img src="images/about.png" alt="1" width="20" height="20" />&nbsp;关于</a></p>
+    <p align="center"><a href="contact.html"><img src="images/email.png" alt="" width="20" height="20" />&nbsp;联系</a></p>
+    <hr />
+    <p align="center">日志|分类|标签</p>
+    <hr />
+    <div align="center">😊&nbsp;&nbsp;😁&nbsp;&nbsp;😄
+    </div>
+    <!-- end #sidebar1 -->
+  </div>
+  <div id="mainContent">
+    <h1 align="center">学习笔记</h1>
+    <p align="left">1.如何将文字链接下的横线去掉？</p>
+    <p align="left">在上课的过程中老师曾讲过如何给文字插入链接，当然这个十分的简单。但是会使文字加上下划线，而且默认是蓝色。看着似乎有点丑，所以打算将下划线给去掉并且把文字改成黑色。于是百度了一下也不是特别的难，就是需要在css的代码中插入一行代码。</p>
+    <div align="center">
+      <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFCCFF">
+        <tr>
+          <td>a{text-decoration: none;<br />
+            color:#000000;<br />
+          }</td>
+        </tr>
+      </table>
+    </div>
+    <p align="left">2.如何给网页插入像首页那样的轮播图片？</p>
+    <p align="left">之前看书的时候在253页课后题，有个是添加轮播文字的。这个需要在适当的位置使用&lt;marquee&gt;标签，照葫芦画瓢把图片轮播给实现了。但是还是有些困难的，毕竟自己对于代码这个东西是一窍不懂的请教了相关专业的同学才知道到底该怎么弄。  </p>
+    <p align="left"><img src="images/code.png" width="800" height="99" /></p>
+    <p align="left">3.如何实现返回顶部按钮？</p>
+    <p align="left">网页中的返回顶部是通过图片+命名点锚记实现的。首先在想要跳转的地方插入命名锚记o(=•ェ•=)m任意命名即可（自己别忘就行(●'◡'●)）然后在网页底部插入图片，设置对齐方式。然后点击图片，在属性面板中的链接那个位置的文本框中输入"#+刚才的锚记命称"</p>
+    <p align="left">4.主页中标题框点击晃动特效实现</p>
+    p align="left">这个灵感还是来自课本之上，课本上介绍了如何使用dw软件给网页添加Ap Div给网页中的元素添加行为，但是书上的仅仅是一部分。在自己对知识海洋的探索之中发现了还有更多好玩的东西，所以就添加了晃动的特效</p>
+    <img src="images/tx.png" />
+    <p align="left">5.一个网页“两个背景图"实现</p>
+    <p align="left">有很多的网站上都有这种情况，这个准确的怎么说我页不知道😂 因为自己使用的是模板所以创建好后它左边的颜色和中间的不一样，并且是灰色的还是那种深灰。自己点看了代码看了下使用模板的代码人家是给写了注释了的，自己仔细的看了许久发现了一些东西。是因为它定义的每个区域颜色不一样，所以会有不同的颜色，自己尝试着修改过backgroun的数值，界面颜色真的发生了改变。当我在输入background的时候出现了一个什么叫bcakground-image的东西，感觉这网页应该是背景图片，百度了一下子还真的是这样子。百度了它的用法于是最终应用到了自己的网页之中。</p>
+    <img src="images/code1.png" />
+    <p align="left">6.鼠标放在图片上出现文字</p>
+    <p align="left">在看代码的过程中知道图片的标签是<img>我们可以通过输入代码的形式来插入图片，不在局限于鼠标操作。img标签中有个title，title意思即为标题的意思，尝试输入一些内容保存后打开网页发现鼠标放在图片上时出现了刚才输入的内容，于是知道了新的操作。
+    
+    <p align="left">7.网站的布局介绍</p>
+    <p align="left">此次作业参考网上的众多网站的布局，从而选择了两款较为常见的布局。在用dw创建html文件的时候使用软件的模板，来选择自己喜欢的布局。这样就解决了自己对于布局问题的烦恼，为我们节省了很多的时间。</p>
+  </div>
+</div>
+<a href="#1"><img src="images/返回顶部.png" width="50" height="50"  align="right" title="重回顶部" /></a>
+<hr color="#000000"  width="100%"/>
+<p><span class="ll">copyright &copy;
+    <!-- #BeginDate format:IS1 -->
+    2019-03-30
+    <!-- #EndDate -->
+All rights reserved.</span></p>
+</body>
+</html>
